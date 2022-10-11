@@ -1,7 +1,7 @@
 import sqlite3
 
 
-def crear_base():
+def crear_database():
     con = sqlite3.connect("database.db")
     return con
 
